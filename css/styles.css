@@ -746,7 +746,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     fill: transparent;
 }
 
-.privacy-checkbox {
+.policy-checkbox {
     width: 16px;
     height: 16px;
     fill: transparent;
@@ -760,7 +760,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     align-items: center;
     }
 
-.check-input:checked + .check-text .privacy-checkbox {
+.check-input:checked + .check-text .policy-checkbox {
     background-color: #404BBF;
     fill: #F4F4FD;
     border: none;
