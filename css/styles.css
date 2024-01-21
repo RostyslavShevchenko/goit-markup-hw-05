@@ -483,13 +483,17 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
 
 .subscribe-input {
     outline: none;
-    color: #fff;
-    width: 234px;
-    padding: 8px 16px;
-    background: #2E2F42;
+    color: #ffffff;
+    max-width: 264px;
+    height: 40px;
+    padding-left: 16px;
+    background-color: transparent;
     border-radius: 4px;
-    border: 1px solid #FFF;
+    border: 1px solid #ffffff;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 0.04em;
 }
 
 .subscribe-input::placeholder {
@@ -505,7 +509,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     justify-content: center;
     align-items: center;
     gap: 16px;
-    max-width: 165px;
+    min-width: 165px;
     border-radius: 4px;
     background: #4D5AE5;
     color: #FFF;
@@ -525,8 +529,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
 }
 
 .footer-btn-icon {
-    width: 24px;
-    height: 24px;
+    margin-left: 16px;
 }
 
 /* backdrop */
