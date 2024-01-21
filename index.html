@@ -554,6 +554,24 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe">
+          <p class="block-title">Subscribe</p>
+          <form class="footer-form">
+            <input
+              type="email"
+              name="email"
+              id="user-email"
+              placeholder="E-mail"
+              class="subscribe-input"
+            />
+            <button type="submit" class="subscribe-btn">
+              Subscribe
+              <svg width="24" height="20" class="footer-btn-icon">
+                <use href="./images/icons.svg#subscribe-icon"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop">
@@ -611,14 +629,32 @@
               </svg>
             </div>
           </div>
-          <label for="user-comment" class="modal-label">Comment</label>
-          <textarea
-            name="user-comment"
-            id="user-comment"
-            class="modal-text"
-            placeholder="Text input"
-          ></textarea>
-          <!-- <p>I accept the terms and conditions of the Privacy Policy</p> -->
+          <div class="modal-field comment">
+            <label for="user-comment" class="modal-label">Comment</label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              class="modal-text"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="modal-field policy">
+            <input
+              type="checkbox"
+              name="policy"
+              id="policy"
+              class="check-input visually-hidden"
+              value="true"
+            />
+            <label for="policy" class="check-text">
+              <span>
+                <svg width="10" height="8">
+                  <use href="./images/icons.svg#check"></use>
+                </svg> </span
+              >I accept the terms and conditions of the
+              <a href="">Privacy Policy</a></label
+            >
+          </div>
           <button type="submit" class="modal-submit-btn">Send</button>
         </form>
       </div>
